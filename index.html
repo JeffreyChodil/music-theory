@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width">
+ <title>Jeffrey Chodil</title>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+ <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body> 
+ <header>
+  <h1>Music Theory</h1>  
+  <p>Toolkit for the Active Musician</p>
+ </header>
+	  
+ <hr>
+    
+ <main>
+  <article>
+   <section>
+    <h2>Building a Scale</h2>
+    <p>Scales are the lingua franca of musicians. Knowing which sharps and flats to use helps you set the landscape for musical invention. The basic scales are <b>Major</b> and <b>minor</b>, with minor scales having additional variants of <b>natural minor</b>, <b>harmonic minor</b>, and <b>melodic minor</b>.</p>
+   </section>
+
+   <section>
+    <h3>The Tetrachord and the Major Scale</h3>
+    <p>The <b>tetrachord</b> is the basic building block of a major scale. As suggested by the root, "tetra," a tetrachord consists of four notes. These notes are spaced apart at a distance of <u>whole step</u>, <u>whole step</u>, <u>half step</u> from the starting note. When played in order, a tetrachord sounds like the theme from The Addams Family.</p>
+    <p> A <strong>major scale</strong> is simply two tetrachords joined by a whole step. Experiment with the Scale Builder tool and see if you can figure out the correct notes of different major scales.</p>
+    </section>
+  
+   <section>
+     <h3>The Minor Scale and its Variants</h3>
+    <p>The <strong>minor scale</strong> has three forms: <u>natural minor</u>, <u>harmonic minor</u>, and <u>melodic minor</u>.</p>
+    <ul>
+     <li><b>Natural Minor</b> can be "related" to the tetrachord-derived major scale. A natural minor scale is the "relative minor" of a major scale when it uses the same notes as the major scale and starts and ends on the sixth scale degree. For example: the relative minor of C major is A natural minor.</li>
+     <li><b>Harmonic Minor</b> modifies the natural minor scale by raising the seventh scale degree by a half step. This means that the harmonic minor scale will end with a half step. The raised seventh degree introduces the <u>leading tone</u>, which strengthens <u>authentic cadences</u>.</li>
+     <li><b>Melodic Minor</b> has two parts:
+      <ol>
+        <li>When <strong>ascending</strong>, raise the sixth and seventh scale degrees.</li>
+        <li>When <strong>descending</strong>, return to natural minor.</li>
+        </li>    
+    </ul>
+  </section>
+  
+  <section>
+   <h2>Scale Building Tool</h2>
+   <p>Use the Scale Building Tool to create major and minor scales. Select the starting note of the scale, and select the scale quality (major, natural/harmonic/melodic minor).</p>
+
+   <!-- dropdown menu to select starting note and scale type -->
+   <form id="scaleBuildingForm">
+   <fieldset>
+     <legend>Select starting note and scale type.</legend>
+
+    <select id="scaleTonic" name="Scale Tonic" size="1">
+     <option value="0">C</option>
+     <option value="1">C#/Db</option>
+     <option value="2">D</option>
+     <option value="3">D#/Eb</option>
+     <option value="4">E</option>
+     <option value="5">F</option>
+     <option value="6">F#/Gb</option>
+     <option value="7">G</option>
+     <option value="8">G#/Ab</option>
+     <option value="9">A</option>
+     <option value="10">A#/Bb</option>
+     <option value="11">B</option>
+    </select>
+
+    <select id="scaleType" name="Scale Type" size="1">
+     <option value="major">Major</option>
+     <option value="naturalMinor">Natural Minor</option>
+     <option value="harmonicMinor">Harmonic Minor</option>
+     <option value="melodicMinor">Melodic Minor</option>
+    </select>
+
+    <button type="button" onclick="buildScale()">Build Scale
+    </button>
+
+    <p id="fullScale"></p>
+	<img src="C:\Users\Owner\Desktop\GitHub\www\ArtistPage\images\blank-grand-staff.jpg" alt="Blank Grand Staff" id="scaleGrandStaff"/>	
+
+   </fieldset>
+   </form>   
+ 
+  </section>
+ </article>
+ </main>
+  
+ <hr>
+	
+ <footer>
+  <h3>For business inquiries</h3>
+  <div>
+   <a href="https://www.github.com/JeffreyChodil" target="_blank">GitHub</a>
+    ||
+   <a href="https://www.linkedin.com/in/jeffrey-chodil-87602544" target="_blank">LinkedIn</a>
+    ||
+   <a href="https://www.profiles.blue/9276" target="_blank">My Digital Business Card</a>
+  </div>
+  <p>&copy; Jeffrey Chodil 2020</p>
+ </footer>
+
+<script src="script.js"></script>
+</body>
+</html>

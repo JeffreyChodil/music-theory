@@ -1,0 +1,27 @@
+html {
+ /*Setting the background color to a friendly Ivory, like the keys of a piano*/
+ background-color: #FFFFF0;
+ font-family: Helvetica, Garamond, "Times New Roman";
+}
+
+body {
+ margin: 0;
+ padding: 10px;
+}
+
+h1, h2, header > p { 
+ text-align: center;
+}
+	
+img{
+	max-width: 75%;
+}
+
+a, p, h3, ul, ol { 
+ font-size: 12px; 
+}
+
+a:link	{ color: blue; }
+a:visited { color: purple; }
+a:hover	{ color: green; }
+a:active { color: red; }
