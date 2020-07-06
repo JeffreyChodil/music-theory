@@ -195,7 +195,18 @@ const scaleLibrary = {
 // Library of scale notation pictures
 const scaleNotationLibrary = {
 	major: {
-		0: "<img src='C:\Users\Owner\Desktop\GitHub\www\ArtistPage\images\scales\major-scale-c.jpg'/>"
+		0: "images/scales/major/major-scale-c.jpg",
+		1: "images/scales/major/major-scale-d-flat.jpg",
+		2: "images/scales/major/major-scale-d.jpg",
+		3: "images/scales/major/major-scale-e-flat.jpg",
+		4: "images/scales/major/major-scale-e.jpg",
+		5: "images/scales/major/major-scale-f.jpg",
+		6: "images/scales/major/major-scale-f-sharp.jpg",
+		7: "images/scales/major/major-scale-g.jpg",
+		8: "images/scales/major/major-scale-a-flat.jpg",
+		9: "images/scales/major/major-scale-a.jpg",
+		10: "images/scales/major/major-scale-b-flat.jpg",
+		11: "images/scales/major/major-scale-b.jpg",
 	}
 	naturalMinor: [],
 	harmonicMinor: [],
@@ -208,7 +219,7 @@ function buildScale(){
   // Get scale quality
   const mode = document.getElementById("scaleType").value;
   // Select appropriate picture of notation
-  document.getElementById("scaleGrandStaff").src = "C:\Users\Owner\Desktop\GitHub\www\ArtistPage\images\major-scale-c.jpg";
+  document.getElementById("scaleGrandStaff").src = scaleNotationLibrary[mode][root];
   // Initiate array to contain scale notes  
   let scale = [chromaticDegreesToPitches(root)];
   // Follow appropriate step increments to build scale  
