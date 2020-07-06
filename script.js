@@ -206,11 +206,50 @@ const scaleNotationLibrary = {
 		8: "images/scales/major/major-scale-a-flat.jpg",
 		9: "images/scales/major/major-scale-a.jpg",
 		10: "images/scales/major/major-scale-b-flat.jpg",
-		11: "images/scales/major/major-scale-b.jpg",
-	}
-	naturalMinor: [],
-	harmonicMinor: [],
-	melodicMinor: []
+		11: "images/scales/major/major-scale-b.jpg"
+	},
+	naturalMinor: {
+		0: "images/scales/minor-natural/nat-min-c.jpg",
+		1: "images/scales/minor-natural/nat-min-c-sharp.jpg",
+		2: "images/scales/minor-natural/nat-min-d.jpg",
+		3: "images/scales/minor-natural/nat-min-e-flat.jpg",
+		4: "images/scales/minor-natural/nat-min-e.jpg",
+		5: "images/scales/minor-natural/nat-min-f.jpg",
+		6: "images/scales/minor-natural/nat-min-f-sharp.jpg",
+		7: "images/scales/minor-natural/nat-min-g.jpg",
+		8: "images/scales/minor-natural/nat-min-g-sharp.jpg",
+		9: "images/scales/minor-natural/nat-min-a.jpg",
+		10: "images/scales/minor-natural/nat-min-b-flat.jpg",
+		11: "images/scales/minor-natural/nat-min-b.jpg"
+		},
+	harmonicMinor: {
+		0: "images/scales/minor-harmonic/har-min-c.jpg",
+		1: "images/scales/minor-harmonic/har-min-c-sharp.jpg",
+		2: "images/scales/minor-harmonic/har-min-d.jpg",
+		3: "images/scales/minor-harmonic/har-min-e-flat.jpg",
+		4: "images/scales/minor-harmonic/har-min-e.jpg",
+		5: "images/scales/minor-harmonic/har-min-f.jpg",
+		6: "images/scales/minor-harmonic/har-min-f-sharp.jpg",
+		7: "images/scales/minor-harmonic/har-min-g.jpg",
+		8: "images/scales/minor-harmonic/har-min-g-sharp.jpg",
+		9: "images/scales/minor-harmonic/har-min-a.jpg",
+		10: "images/scales/minor-harmonic/har-min-b-flat.jpg",
+		11: "images/scales/minor-harmonic/har-min-b.jpg"
+		},
+	melodicMinor: {
+		0: "images/scales/minor-melodic/mel-min-c.jpg",
+		1: "images/scales/minor-melodic/mel-min-c-sharp.jpg",
+		2: "images/scales/minor-melodic/mel-min-d.jpg",
+		3: "images/scales/minor-melodic/mel-min-e-flat.jpg",
+		4: "images/scales/minor-melodic/mel-min-e.jpg",
+		5: "images/scales/minor-melodic/mel-min-f.jpg",
+		6: "images/scales/minor-melodic/mel-min-f-sharp.jpg",
+		7: "images/scales/minor-melodic/mel-min-g.jpg",
+		8: "images/scales/minor-melodic/mel-min-g-sharp.jpg",
+		9: "images/scales/minor-melodic/mel-min-a.jpg",
+		10: "images/scales/minor-melodic/mel-min-b-flat.jpg",
+		11: "images/scales/minor-melodic/mel-min-b.jpg"
+		}
 }*/
 
 function buildScale(){
