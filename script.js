@@ -258,7 +258,7 @@ function buildScale(){
   // Get scale quality
   const mode = document.getElementById("scaleType").value;
   // Select appropriate picture of notation
-  document.getElementById("scaleGrandStaff").src = scaleNotationLibrary[mode][root];
+  document.getElementById("scaleImage").src = scaleNotationLibrary[mode][root];
   // Initiate array to contain scale notes  
   let scale = [chromaticDegreesToPitches(root)];
   // Follow appropriate step increments to build scale  
