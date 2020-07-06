@@ -191,7 +191,7 @@ const scaleLibrary = {
   melodicMinor: [2,1,2,2,2,2,1],
   ionianMode: [2,2,1,2,2,2,1]
 }
-/*
+
 // Library of scale notation pictures
 const scaleNotationLibrary = {
 	major: {
@@ -250,7 +250,7 @@ const scaleNotationLibrary = {
 		10: "images/scales/minor-melodic/mel-min-b-flat.jpg",
 		11: "images/scales/minor-melodic/mel-min-b.jpg"
 		}
-}*/
+}
 
 function buildScale(){
   // Get starting note of scale from dropdown
